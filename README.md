@@ -2,7 +2,7 @@
 
 ##### MVA-DDI: Interpretable attention network with multi-view learning for drug-drug interaction prediction
 
-##### ![Overview of MVA-DDI framework](MVA-DDI.PNG)
+##### ![Overview of MVA-DDI framework](MVA-DDI.png)
 
 # File description
 
