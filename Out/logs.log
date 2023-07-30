@@ -1,0 +1,757 @@
+nohup: ignoring input
+Namespace(batch_size=256, epochs=50, gcn_in_size=75, gcn_out_size=128, learn_rate=0.0001, logging='less', loss='CrossEntropy', random_factor=False, savemodel=False, score='All', test_set='./Data/AMVDDI_test.csv', train_set='./Data/AMVDDI_train.csv', valid_set='./Data/AMVDDI_valid.csv')
+./Data/AMVDDI_train.csv
+./Data/AMVDDI_valid.csv
+./Data/AMVDDI_test.csv
+<generator object Module.parameters at 0x7fb66a7fd2d0>
+----------------
+train losss : 0.4356577293613018
+epoch 1, train finish!
+----------------
+val_loss : 0.34529340084718196 
+Confusion_M: [[11456.  1016.]
+ [ 2651.  9821.]]
+Confusion_M: [[11410.  1063.]
+ [ 2653.  9820.]]
+epoch 1, F1 score :validation mean: 0.8620339365664622, testing mean: 0.8599638227313837
+ACC:validation mean: 0.8529906991661321, testing mean: 0.8510382426040247
+Precision:validation mean: 0.81207910966187, testing mean: 0.8113489298158287
+Recall:validation mean: 0.9185375240538807, testing mean: 0.9147759159785136
+AUROC:validation mean: 0.9268766623509913, testing mean: 0.9285312620968017
+AUPR:validation mean: 0.9268766623509913, testing mean: 0.9188255290347495
+best auroc:validation mean: 0.9268766623509913, testing mean: 0.9285312620968017
+train losss : 0.29749992774465145
+epoch 2, train finish!
+----------------
+val_loss : 0.28776022449743993 
+Confusion_M: [[11746.   726.]
+ [ 2269. 10203.]]
+Confusion_M: [[11790.   683.]
+ [ 2233. 10240.]]
+epoch 2, F1 score :validation mean: 0.8869256616453355, testing mean: 0.8899456521739131
+ACC:validation mean: 0.8799310455420141, testing mean: 0.883107512226409
+Precision:validation mean: 0.8381020335354977, testing mean: 0.8407616059331099
+Recall:validation mean: 0.9417896087235408, testing mean: 0.9452417221197787
+AUROC:validation mean: 0.9546495599790741, testing mean: 0.9556369907802263
+AUPR:validation mean: 0.9546495599790741, testing mean: 0.9520435071695035
+best auroc:validation mean: 0.9546495599790741, testing mean: 0.9556369907802263
+train losss : 0.2381598833661813
+epoch 3, train finish!
+----------------
+val_loss : 0.22442464066707357 
+Confusion_M: [[11909.   563.]
+ [ 1709. 10763.]]
+Confusion_M: [[11935.   538.]
+ [ 1714. 10759.]]
+epoch 3, F1 score :validation mean: 0.9129168263702568, testing mean: 0.9137891432508997
+ACC:validation mean: 0.90891597177678, testing mean: 0.909725006012988
+Precision:validation mean: 0.8745043325011015, testing mean: 0.8744230346545534
+Recall:validation mean: 0.9548588838999359, testing mean: 0.956866832357893
+AUROC:validation mean: 0.9709660094030769, testing mean: 0.9717795762345424
+AUPR:validation mean: 0.9709660094030769, testing mean: 0.9702585344051645
+best auroc:validation mean: 0.9709660094030769, testing mean: 0.9717795762345424
+train losss : 0.2005848198555983
+epoch 4, train finish!
+----------------
+val_loss : 0.19491577954316625 
+Confusion_M: [[11937.   535.]
+ [ 1454. 11018.]]
+Confusion_M: [[11965.   508.]
+ [ 1450. 11023.]]
+epoch 4, F1 score :validation mean: 0.9230947685883308, testing mean: 0.9243665018541409
+ACC:validation mean: 0.9202613855035279, testing mean: 0.9215104625992143
+Precision:validation mean: 0.8914196101859457, testing mean: 0.8919120387625792
+Recall:validation mean: 0.9571039127645927, testing mean: 0.9592720275795719
+AUROC:validation mean: 0.9774431223696051, testing mean: 0.977217069636871
+AUPR:validation mean: 0.9774431223696051, testing mean: 0.9754588585443431
+best auroc:validation mean: 0.9774431223696051, testing mean: 0.977217069636871
+train losss : 0.17748470904353336
+epoch 5, train finish!
+----------------
+val_loss : 0.1781891907508276 
+Confusion_M: [[11989.   483.]
+ [ 1270. 11202.]]
+Confusion_M: [[12010.   463.]
+ [ 1276. 11197.]]
+epoch 5, F1 score :validation mean: 0.9318720609381679, testing mean: 0.9324896152800963
+ACC:validation mean: 0.9297225785760103, testing mean: 0.930289425158342
+Precision:validation mean: 0.9042160042235463, testing mean: 0.9039590546439862
+Recall:validation mean: 0.9612732520846696, testing mean: 0.9628798204120901
+AUROC:validation mean: 0.9808343267495201, testing mean: 0.9810803586207202
+AUPR:validation mean: 0.9808343267495201, testing mean: 0.9802577307991326
+best auroc:validation mean: 0.9808343267495201, testing mean: 0.9810803586207202
+train losss : 0.16016663030172007
+epoch 6, train finish!
+----------------
+val_loss : 0.17071440861541398 
+Confusion_M: [[12108.   364.]
+ [ 1276. 11196.]]
+Confusion_M: [[12097.   376.]
+ [ 1320. 11153.]]
+epoch 6, F1 score :validation mean: 0.9365717821782178, testing mean: 0.9344920818848976
+ACC:validation mean: 0.9342527261064785, testing mean: 0.9320131484005452
+Precision:validation mean: 0.9046622833233712, testing mean: 0.9016173511217113
+Recall:validation mean: 0.9708146247594612, testing mean: 0.9698548865549587
+AUROC:validation mean: 0.9828291061522391, testing mean: 0.9824877664561674
+AUPR:validation mean: 0.9828291061522391, testing mean: 0.9813746565203609
+best auroc:validation mean: 0.9828291061522391, testing mean: 0.9824877664561674
+train losss : 0.14815223792042487
+epoch 7, train finish!
+----------------
+val_loss : 0.15891466308765265 
+Confusion_M: [[12096.   376.]
+ [ 1174. 11298.]]
+Confusion_M: [[12128.   345.]
+ [ 1148. 11325.]]
+epoch 7, F1 score :validation mean: 0.9397871183280242, testing mean: 0.9420171657151734
+ACC:validation mean: 0.9378608082103913, testing mean: 0.9401507255672252
+Precision:validation mean: 0.9115297663903542, testing mean: 0.9135281711358842
+Recall:validation mean: 0.9698524695317511, testing mean: 0.9723402549506935
+AUROC:validation mean: 0.9851152919936423, testing mean: 0.9853786640459836
+AUPR:validation mean: 0.9851152919936423, testing mean: 0.9843952242366936
+best auroc:validation mean: 0.9851152919936423, testing mean: 0.9853786640459836
+train losss : 0.1368172487673851
+epoch 8, train finish!
+----------------
+val_loss : 0.15881956136804454 
+Confusion_M: [[12068.   404.]
+ [ 1107. 11365.]]
+Confusion_M: [[12096.   377.]
+ [ 1094. 11379.]]
+epoch 8, F1 score :validation mean: 0.9410847272585487, testing mean: 0.9426801231344737
+ACC:validation mean: 0.9394243104554202, testing mean: 0.9410326304818408
+Precision:validation mean: 0.9159772296015181, testing mean: 0.9170583775587566
+Recall:validation mean: 0.9676074406670943, testing mean: 0.9697747133809027
+AUROC:validation mean: 0.9851594833491807, testing mean: 0.9857066297275715
+AUPR:validation mean: 0.9851594833491807, testing mean: 0.9850150293793801
+best auroc:validation mean: 0.9851594833491807, testing mean: 0.9857066297275715
+train losss : 0.12642115015918629
+epoch 9, train finish!
+----------------
+val_loss : 0.14722752970244204 
+Confusion_M: [[12119.   353.]
+ [ 1045. 11427.]]
+Confusion_M: [[12153.   320.]
+ [ 1024. 11449.]]
+epoch 9, F1 score :validation mean: 0.9454673115930722, testing mean: 0.9476023391812864
+ACC:validation mean: 0.9439544579858884, testing mean: 0.9461236270343943
+Precision:validation mean: 0.9206168337891218, testing mean: 0.9222888366092433
+Recall:validation mean: 0.971696600384862, testing mean: 0.9743445843020925
+AUROC:validation mean: 0.9870939319727247, testing mean: 0.9877155645531316
+AUPR:validation mean: 0.9870939319727247, testing mean: 0.987456230973432
+best auroc:validation mean: 0.9870939319727247, testing mean: 0.9877155645531316
+train losss : 0.1187907334178304
+epoch 10, train finish!
+----------------
+val_loss : 0.1424250764278125 
+Confusion_M: [[12145.   327.]
+ [ 1008. 11464.]]
+Confusion_M: [[12151.   322.]
+ [  969. 11504.]]
+epoch 10, F1 score :validation mean: 0.9479024390243903, testing mean: 0.9495565193607627
+ACC:validation mean: 0.9464801154586273, testing mean: 0.9482482161468773
+Precision:validation mean: 0.9233634912187334, testing mean: 0.9261432926829268
+Recall:validation mean: 0.9737812700449006, testing mean: 0.9741842379539806
+AUROC:validation mean: 0.9880638660104728, testing mean: 0.988285923442467
+AUPR:validation mean: 0.9880638660104728, testing mean: 0.9878441809759849
+best auroc:validation mean: 0.9880638660104728, testing mean: 0.988285923442467
+train losss : 0.11329744712760051
+epoch 11, train finish!
+----------------
+val_loss : 0.1377395819492486 
+Confusion_M: [[12191.   281.]
+ [ 1036. 11436.]]
+Confusion_M: [[12221.   252.]
+ [ 1021. 11452.]]
+epoch 11, F1 score :validation mean: 0.9487528697614692, testing mean: 0.9504958195605677
+ACC:validation mean: 0.9472017318794099, testing mean: 0.948969774713381
+Precision:validation mean: 0.9216753610040069, testing mean: 0.9228968433771334
+Recall:validation mean: 0.9774695317511225, testing mean: 0.9797963601378978
+AUROC:validation mean: 0.9893646694831189, testing mean: 0.9892626182069826
+AUPR:validation mean: 0.9893646694831189, testing mean: 0.9888181019019364
+best auroc:validation mean: 0.9893646694831189, testing mean: 0.9892626182069826
+train losss : 0.10522428988837279
+epoch 12, train finish!
+----------------
+val_loss : 0.14021729757743223 
+Confusion_M: [[12195.   277.]
+ [  991. 11481.]]
+Confusion_M: [[12177.   296.]
+ [  955. 11518.]]
+epoch 12, F1 score :validation mean: 0.9505807155662951, testing mean: 0.9511423550087874
+ACC:validation mean: 0.9491661321359846, testing mean: 0.9498516796279964
+Precision:validation mean: 0.9248445320794783, testing mean: 0.9272768809016144
+Recall:validation mean: 0.9777902501603593, testing mean: 0.9762687404794356
+AUROC:validation mean: 0.9889827427677894, testing mean: 0.989647324744337
+AUPR:validation mean: 0.9889827427677894, testing mean: 0.9891651254190483
+best auroc:validation mean: 0.9889827427677894, testing mean: 0.989647324744337
+train losss : 0.10033504899877768
+epoch 13, train finish!
+----------------
+val_loss : 0.18276784550018457 
+Confusion_M: [[12166.   306.]
+ [ 1252. 11220.]]
+Confusion_M: [[12187.   286.]
+ [ 1247. 11226.]]
+epoch 13, F1 score :validation mean: 0.9398223252220934, testing mean: 0.9408268035666036
+ACC:validation mean: 0.9375400898011546, testing mean: 0.938547262086106
+Precision:validation mean: 0.9066925026084365, testing mean: 0.9071758225398243
+Recall:validation mean: 0.9754650416933932, testing mean: 0.9770704722199952
+AUROC:validation mean: 0.984711176383399, testing mean: 0.9858005325496499
+AUPR:validation mean: 0.984711176383399, testing mean: 0.985115003652574
+best auroc:validation mean: 0.9889827427677894, testing mean: 0.989647324744337
+train losss : 0.09442252598893948
+epoch 14, train finish!
+----------------
+val_loss : 0.12812981613892682 
+Confusion_M: [[12106.   366.]
+ [  802. 11670.]]
+Confusion_M: [[12101.   372.]
+ [  752. 11721.]]
+epoch 14, F1 score :validation mean: 0.95397951142632, testing mean: 0.9556187317381347
+ACC:validation mean: 0.9531751122514432, testing mean: 0.95494267618055
+Precision:validation mean: 0.9378679888441277, testing mean: 0.9414922586166654
+Recall:validation mean: 0.9706542655548428, testing mean: 0.9701755792511826
+AUROC:validation mean: 0.9900742641065697, testing mean: 0.9903677327457677
+AUPR:validation mean: 0.9900742641065697, testing mean: 0.9900143793712726
+best auroc:validation mean: 0.9900742641065697, testing mean: 0.9903677327457677
+train losss : 0.09204597285447212
+epoch 15, train finish!
+----------------
+val_loss : 0.1212152142685895 
+Confusion_M: [[12140.   332.]
+ [  764. 11708.]]
+Confusion_M: [[12174.   299.]
+ [  728. 11745.]]
+epoch 15, F1 score :validation mean: 0.9568095838587642, testing mean: 0.9595270935960591
+ACC:validation mean: 0.9560615779345735, testing mean: 0.9588310751222641
+Precision:validation mean: 0.9407935523868568, testing mean: 0.9435746395907612
+Recall:validation mean: 0.9733803720333547, testing mean: 0.9760282209572677
+AUROC:validation mean: 0.9909816944413473, testing mean: 0.9912695411505994
+AUPR:validation mean: 0.9909816944413473, testing mean: 0.9907810932423267
+best auroc:validation mean: 0.9909816944413473, testing mean: 0.9912695411505994
+train losss : 0.08684802489976089
+epoch 16, train finish!
+----------------
+val_loss : 0.12866473929690464 
+Confusion_M: [[12177.   295.]
+ [  775. 11697.]]
+Confusion_M: [[12183.   290.]
+ [  741. 11732.]]
+epoch 16, F1 score :validation mean: 0.9579137822529893, testing mean: 0.9594046540930031
+ACC:validation mean: 0.9571039127645927, testing mean: 0.9586707287741522
+Precision:validation mean: 0.9401636812847437, testing mean: 0.9426648096564532
+Recall:validation mean: 0.9763470173187941, testing mean: 0.9767497795237714
+AUROC:validation mean: 0.9900220850060133, testing mean: 0.9909720782989228
+AUPR:validation mean: 0.9900220850060133, testing mean: 0.9893499377071306
+best auroc:validation mean: 0.9909816944413473, testing mean: 0.9912695411505994
+train losss : 0.0833328064244527
+epoch 17, train finish!
+----------------
+val_loss : 0.12434883925075434 
+Confusion_M: [[12178.   294.]
+ [  788. 11684.]]
+Confusion_M: [[12171.   302.]
+ [  748. 11725.]]
+epoch 17, F1 score :validation mean: 0.957465209529051, testing mean: 0.958648393194707
+ACC:validation mean: 0.9566228351507376, testing mean: 0.9579090836206205
+Precision:validation mean: 0.9392256671294154, testing mean: 0.9421007817942565
+Recall:validation mean: 0.9764271969211032, testing mean: 0.9757877014350999
+AUROC:validation mean: 0.9911245031076156, testing mean: 0.9912456813877438
+AUPR:validation mean: 0.9911245031076156, testing mean: 0.9909655699124544
+best auroc:validation mean: 0.9909816944413473, testing mean: 0.9912695411505994
+train losss : 0.0794656853358715
+epoch 18, train finish!
+----------------
+val_loss : 0.12395297093506978 
+Confusion_M: [[12212.   260.]
+ [  787. 11685.]]
+Confusion_M: [[12201.   272.]
+ [  769. 11704.]]
+epoch 18, F1 score :validation mean: 0.9588944289584235, testing mean: 0.9590850135597218
+ACC:validation mean: 0.9580259781911482, testing mean: 0.9582698629038724
+Precision:validation mean: 0.9394568812985614, testing mean: 0.9407093292212799
+Recall:validation mean: 0.9791533033996151, testing mean: 0.9781928966567787
+AUROC:validation mean: 0.9911563415842378, testing mean: 0.9913789701734258
+AUPR:validation mean: 0.9911563415842378, testing mean: 0.990940408927359
+best auroc:validation mean: 0.9911563415842378, testing mean: 0.9913789701734258
+train losss : 0.07798675500716154
+epoch 19, train finish!
+----------------
+val_loss : 0.12378948352926848 
+Confusion_M: [[12188.   284.]
+ [  783. 11689.]]
+Confusion_M: [[12187.   286.]
+ [  770. 11703.]]
+epoch 19, F1 score :validation mean: 0.9580631214872461, testing mean: 0.9584742430200551
+ACC:validation mean: 0.9572241821680565, testing mean: 0.9576685640984527
+Precision:validation mean: 0.9396345694241, testing mean: 0.9405726634251755
+Recall:validation mean: 0.977228992944195, testing mean: 0.9770704722199952
+AUROC:validation mean: 0.9911622496226056, testing mean: 0.9911624614659528
+AUPR:validation mean: 0.9911622496226056, testing mean: 0.9908642786159196
+best auroc:validation mean: 0.9911563415842378, testing mean: 0.9913789701734258
+train losss : 0.0755870304022653
+epoch 20, train finish!
+----------------
+val_loss : 0.12144974832023893 
+Confusion_M: [[12198.   274.]
+ [  713. 11759.]]
+Confusion_M: [[12185.   288.]
+ [  656. 11817.]]
+epoch 20, F1 score :validation mean: 0.961115707363196, testing mean: 0.9627083827131232
+ACC:validation mean: 0.9604313662604234, testing mean: 0.9621582618455865
+Precision:validation mean: 0.9447757725970103, testing mean: 0.9489136360096566
+Recall:validation mean: 0.9780307889672867, testing mean: 0.9769101258718833
+AUROC:validation mean: 0.9914904125459117, testing mean: 0.9919500457555301
+AUPR:validation mean: 0.9914904125459117, testing mean: 0.9918314173448819
+best auroc:validation mean: 0.9914904125459117, testing mean: 0.9919500457555301
+train losss : 0.07088831632087628
+epoch 21, train finish!
+----------------
+val_loss : 0.11862152301687368 
+Confusion_M: [[12214.   258.]
+ [  723. 11749.]]
+Confusion_M: [[12195.   278.]
+ [  736. 11737.]]
+epoch 21, F1 score :validation mean: 0.9613916328859853, testing mean: 0.9600850259801607
+ACC:validation mean: 0.9606719050673509, testing mean: 0.9593522007536278
+Precision:validation mean: 0.9441137821751565, testing mean: 0.9430825148867064
+Recall:validation mean: 0.9793136626042335, testing mean: 0.9777118576124428
+AUROC:validation mean: 0.9920051319059889, testing mean: 0.9919797804707701
+AUPR:validation mean: 0.9920051319059889, testing mean: 0.9916554881455699
+best auroc:validation mean: 0.9920051319059889, testing mean: 0.9919797804707701
+train losss : 0.06937611541018272
+epoch 22, train finish!
+----------------
+val_loss : 0.12914164033623374 
+Confusion_M: [[12201.   271.]
+ [  754. 11718.]]
+Confusion_M: [[12223.   250.]
+ [  724. 11749.]]
+epoch 22, F1 score :validation mean: 0.9596885200770834, testing mean: 0.9616837136113296
+ACC:validation mean: 0.958907953816549, testing mean: 0.9609556642347471
+Precision:validation mean: 0.9417985333847935, testing mean: 0.9440797095852321
+Recall:validation mean: 0.9782713277742142, testing mean: 0.9799567064860097
+AUROC:validation mean: 0.9908800234655197, testing mean: 0.9913610753512845
+AUPR:validation mean: 0.9908800234655197, testing mean: 0.9906043733203866
+best auroc:validation mean: 0.9920051319059889, testing mean: 0.9919797804707701
+train losss : 0.06668337375068893
+epoch 23, train finish!
+----------------
+val_loss : 0.12146386373027855 
+Confusion_M: [[12219.   253.]
+ [  742. 11730.]]
+Confusion_M: [[12218.   255.]
+ [  746. 11727.]]
+epoch 23, F1 score :validation mean: 0.9608775999685448, testing mean: 0.9606478751425089
+ACC:validation mean: 0.9601106478511866, testing mean: 0.9598733263849916
+Precision:validation mean: 0.9427513309158244, testing mean: 0.9424560320888614
+Recall:validation mean: 0.9797145606157793, testing mean: 0.97955584061573
+AUROC:validation mean: 0.9921299882358677, testing mean: 0.9922405312977837
+AUPR:validation mean: 0.9921299882358677, testing mean: 0.9920657863591983
+best auroc:validation mean: 0.9921299882358677, testing mean: 0.9922405312977837
+train losss : 0.06321079652660933
+epoch 24, train finish!
+----------------
+val_loss : 0.12382234321260939 
+Confusion_M: [[12190.   282.]
+ [  710. 11762.]]
+Confusion_M: [[12187.   286.]
+ [  697. 11776.]]
+epoch 24, F1 score :validation mean: 0.9609017814914078, testing mean: 0.9612335844145601
+ACC:validation mean: 0.9602309172546504, testing mean: 0.9605948849514953
+Precision:validation mean: 0.9449612403100776, testing mean: 0.9459018938217945
+Recall:validation mean: 0.9773893521488134, testing mean: 0.9770704722199952
+AUROC:validation mean: 0.9916858856847677, testing mean: 0.9918322606735142
+AUPR:validation mean: 0.9916858856847677, testing mean: 0.9916042493053321
+best auroc:validation mean: 0.9921299882358677, testing mean: 0.9922405312977837
+train losss : 0.06277111548548325
+epoch 25, train finish!
+----------------
+val_loss : 0.12269732947176208 
+Confusion_M: [[12227.   245.]
+ [  718. 11754.]]
+Confusion_M: [[12195.   278.]
+ [  697. 11776.]]
+epoch 25, F1 score :validation mean: 0.9621119723020025, testing mean: 0.9615612063867534
+ACC:validation mean: 0.9613935214881334, testing mean: 0.9609155776477191
+Precision:validation mean: 0.9445345693317884, testing mean: 0.9459354638535525
+Recall:validation mean: 0.9803559974342527, testing mean: 0.9777118576124428
+AUROC:validation mean: 0.9919992077956996, testing mean: 0.9918564868174264
+AUPR:validation mean: 0.9919992077956996, testing mean: 0.9917864436364251
+best auroc:validation mean: 0.9921299882358677, testing mean: 0.9922405312977837
+train losss : 0.06253565826381628
+epoch 26, train finish!
+----------------
+val_loss : 0.11428896081158701 
+Confusion_M: [[12188.   284.]
+ [  596. 11876.]]
+Confusion_M: [[12162.   311.]
+ [  593. 11880.]]
+epoch 26, F1 score :validation mean: 0.9651567944250871, testing mean: 0.9641667987949897
+ACC:validation mean: 0.964720974983964, testing mean: 0.9637617253267057
+Precision:validation mean: 0.9533792240300375, testing mean: 0.9535084280674245
+Recall:validation mean: 0.977228992944195, testing mean: 0.9750661428685962
+AUROC:validation mean: 0.9923281453856253, testing mean: 0.9919639585940814
+AUPR:validation mean: 0.9923281453856253, testing mean: 0.9921093221444717
+best auroc:validation mean: 0.9921299882358677, testing mean: 0.9922405312977837
+train losss : 0.058438232133929166
+epoch 27, train finish!
+----------------
+val_loss : 0.1160837978466737 
+Confusion_M: [[12197.   275.]
+ [  641. 11831.]]
+Confusion_M: [[12189.   284.]
+ [  641. 11832.]]
+epoch 27, F1 score :validation mean: 0.9638087712366654, testing mean: 0.9634430699917006
+ACC:validation mean: 0.9632777421423989, testing mean: 0.9629199069991181
+Precision:validation mean: 0.950070104377629, testing mean: 0.9500389711613406
+Recall:validation mean: 0.9779506093649776, testing mean: 0.9772308185681071
+AUROC:validation mean: 0.9928982710881097, testing mean: 0.9923678262179313
+AUPR:validation mean: 0.9928982710881097, testing mean: 0.9920744175574064
+best auroc:validation mean: 0.9928982710881097, testing mean: 0.9923678262179313
+train losss : 0.05752933505349434
+epoch 28, train finish!
+----------------
+val_loss : 0.12207622062034752 
+Confusion_M: [[12182.   290.]
+ [  681. 11791.]]
+Confusion_M: [[12202.   271.]
+ [  674. 11799.]]
+epoch 28, F1 score :validation mean: 0.9616735741069666, testing mean: 0.9627204228963667
+ACC:validation mean: 0.9610728030788968, testing mean: 0.9621181752585585
+Precision:validation mean: 0.9470574516053798, testing mean: 0.9476545511028269
+Recall:validation mean: 0.97674791533034, testing mean: 0.9782730698308346
+AUROC:validation mean: 0.9921447004728694, testing mean: 0.9923208908762369
+AUPR:validation mean: 0.9921447004728694, testing mean: 0.9919416949334566
+best auroc:validation mean: 0.9928982710881097, testing mean: 0.9923678262179313
+train losss : 0.06212670958768099
+epoch 29, train finish!
+----------------
+val_loss : 0.13051339332014322 
+Confusion_M: [[12195.   277.]
+ [  732. 11740.]]
+Confusion_M: [[12183.   290.]
+ [  707. 11766.]]
+epoch 29, F1 score :validation mean: 0.9602740265364779, testing mean: 0.9606907700193196
+ACC:validation mean: 0.9595493906350224, testing mean: 0.9600336727331035
+Precision:validation mean: 0.943374332791831, testing mean: 0.9451512800620636
+Recall:validation mean: 0.9777902501603593, testing mean: 0.9767497795237714
+AUROC:validation mean: 0.9907386034132748, testing mean: 0.9898811626330223
+AUPR:validation mean: 0.9907386034132748, testing mean: 0.9851449598621884
+best auroc:validation mean: 0.9928982710881097, testing mean: 0.9923678262179313
+train losss : 0.06086693964182184
+epoch 30, train finish!
+----------------
+val_loss : 0.11541611376237504 
+Confusion_M: [[12205.   267.]
+ [  634. 11838.]]
+Confusion_M: [[12202.   271.]
+ [  633. 11840.]]
+epoch 30, F1 score :validation mean: 0.9644028288096086, testing mean: 0.9642800695432274
+ACC:validation mean: 0.9638790891597178, testing mean: 0.9637617253267057
+Precision:validation mean: 0.950619207103357, testing mean: 0.9506817296455006
+Recall:validation mean: 0.978592046183451, testing mean: 0.9782730698308346
+AUROC:validation mean: 0.9928153110433695, testing mean: 0.992475825069089
+AUPR:validation mean: 0.9928153110433695, testing mean: 0.9917137792758527
+best auroc:validation mean: 0.9928153110433695, testing mean: 0.992475825069089
+train losss : 0.0549464985405883
+epoch 31, train finish!
+----------------
+val_loss : 0.12660074495349308 
+Confusion_M: [[12241.   231.]
+ [  738. 11734.]]
+Confusion_M: [[12236.   237.]
+ [  717. 11756.]]
+epoch 31, F1 score :validation mean: 0.9619268398098307, testing mean: 0.9624793518445686
+ACC:validation mean: 0.9611529826812059, testing mean: 0.9617573959753066
+Precision:validation mean: 0.9431389167116111, testing mean: 0.9446460279471937
+Recall:validation mean: 0.9814785118665812, testing mean: 0.9809989577487372
+AUROC:validation mean: 0.9914270152441019, testing mean: 0.9905402435877385
+AUPR:validation mean: 0.9914270152441019, testing mean: 0.98375301010724
+best auroc:validation mean: 0.9928153110433695, testing mean: 0.992475825069089
+train losss : 0.0529896519994602
+epoch 32, train finish!
+----------------
+val_loss : 0.12484706088672487 
+Confusion_M: [[12223.   249.]
+ [  696. 11776.]]
+Confusion_M: [[12232.   241.]
+ [  674. 11799.]]
+epoch 32, F1 score :validation mean: 0.9627820881414674, testing mean: 0.963946569998818
+ACC:validation mean: 0.962115137908916, testing mean: 0.9633207728693979
+Precision:validation mean: 0.9461258611347627, testing mean: 0.9477762281109562
+Recall:validation mean: 0.9800352790250161, testing mean: 0.9806782650525134
+AUROC:validation mean: 0.9918478777966172, testing mean: 0.9910214111868311
+AUPR:validation mean: 0.9918478777966172, testing mean: 0.9855981555850639
+best auroc:validation mean: 0.9928153110433695, testing mean: 0.992475825069089
+train losss : 0.05439640140065398
+epoch 33, train finish!
+----------------
+val_loss : 0.13169306417813106 
+Confusion_M: [[12177.   295.]
+ [  653. 11819.]]
+Confusion_M: [[12173.   300.]
+ [  619. 11854.]]
+epoch 33, F1 score :validation mean: 0.9625326061180934, testing mean: 0.9636255689689293
+ACC:validation mean: 0.9619948685054522, testing mean: 0.963160426521286
+Precision:validation mean: 0.9491036632891661, testing mean: 0.9516103814884302
+Recall:validation mean: 0.9763470173187941, testing mean: 0.9759480477832118
+AUROC:validation mean: 0.9903934910414852, testing mean: 0.9889612376490936
+AUPR:validation mean: 0.9903934910414852, testing mean: 0.9793343228865878
+best auroc:validation mean: 0.9928153110433695, testing mean: 0.992475825069089
+train losss : 0.051767852194368455
+epoch 34, train finish!
+----------------
+val_loss : 0.12401799036532032 
+Confusion_M: [[12230.   242.]
+ [  636. 11836.]]
+Confusion_M: [[12219.   254.]
+ [  632. 11841.]]
+epoch 34, F1 score :validation mean: 0.9653484884363407, testing mean: 0.9650134259990523
+ACC:validation mean: 0.9648011545862732, testing mean: 0.9644832838932094
+Precision:validation mean: 0.9505673869112389, testing mean: 0.9508209477861645
+Recall:validation mean: 0.9805965362411803, testing mean: 0.9796360137897859
+AUROC:validation mean: 0.9919916347062577, testing mean: 0.9919153263295974
+AUPR:validation mean: 0.9919916347062577, testing mean: 0.9899828039840027
+best auroc:validation mean: 0.9928153110433695, testing mean: 0.992475825069089
+train losss : 0.05139302737795963
+epoch 35, train finish!
+----------------
+val_loss : 0.12101901240874918 
+Confusion_M: [[12181.   291.]
+ [  591. 11881.]]
+Confusion_M: [[12177.   296.]
+ [  583. 11890.]]
+epoch 35, F1 score :validation mean: 0.9650610045951513, testing mean: 0.965164665319225
+ACC:validation mean: 0.9646407953816549, testing mean: 0.9647638900024051
+Precision:validation mean: 0.9537269025994363, testing mean: 0.9543103448275863
+Recall:validation mean: 0.9766677357280308, testing mean: 0.9762687404794356
+AUROC:validation mean: 0.9918241427828483, testing mean: 0.9910367702663955
+AUPR:validation mean: 0.9918241427828483, testing mean: 0.9853871332757386
+best auroc:validation mean: 0.9928153110433695, testing mean: 0.992475825069089
+train losss : 0.048244531418029694
+epoch 36, train finish!
+----------------
+val_loss : 0.11933757734427951 
+Confusion_M: [[12222.   250.]
+ [  626. 11846.]]
+Confusion_M: [[12222.   251.]
+ [  608. 11865.]]
+epoch 36, F1 score :validation mean: 0.9654028436018958, testing mean: 0.9660514563490494
+ACC:validation mean: 0.9648813341885825, testing mean: 0.9655656217429648
+Precision:validation mean: 0.9512764632627646, testing mean: 0.9526110678098207
+Recall:validation mean: 0.9799550994227069, testing mean: 0.9798765333119538
+AUROC:validation mean: 0.9921261470466134, testing mean: 0.9910296579744774
+AUPR:validation mean: 0.9921261470466134, testing mean: 0.9859467247674377
+best auroc:validation mean: 0.9928153110433695, testing mean: 0.992475825069089
+train losss : 0.047909303858446384
+epoch 37, train finish!
+----------------
+val_loss : 0.11307384580259724 
+Confusion_M: [[12196.   276.]
+ [  571. 11901.]]
+Confusion_M: [[12187.   286.]
+ [  538. 11935.]]
+epoch 37, F1 score :validation mean: 0.9664408257062483, testing mean: 0.9672989919834907
+ACC:validation mean: 0.9660439384220654, testing mean: 0.9669686522889441
+Precision:validation mean: 0.9552753191822668, testing mean: 0.9577210216110019
+Recall:validation mean: 0.9778704297626684, testing mean: 0.9770704722199952
+AUROC:validation mean: 0.9930046543513403, testing mean: 0.9926365538676024
+AUPR:validation mean: 0.9930046543513403, testing mean: 0.9925799100056514
+best auroc:validation mean: 0.9930046543513403, testing mean: 0.9926365538676024
+train losss : 0.047784431197513376
+epoch 38, train finish!
+----------------
+val_loss : 0.11396334020002764 
+Confusion_M: [[12213.   259.]
+ [  567. 11905.]]
+Confusion_M: [[12184.   289.]
+ [  570. 11903.]]
+epoch 38, F1 score :validation mean: 0.9672897196261683, testing mean: 0.9659491814325921
+ACC:validation mean: 0.9668858242463118, testing mean: 0.9655656217429648
+Precision:validation mean: 0.9556338028169014, testing mean: 0.9553081386231771
+Recall:validation mean: 0.9792334830019244, testing mean: 0.9768299526978274
+AUROC:validation mean: 0.9934737808843188, testing mean: 0.9928159134642397
+AUPR:validation mean: 0.9934737808843188, testing mean: 0.9925556360569212
+best auroc:validation mean: 0.9934737808843188, testing mean: 0.9928159134642397
+train losss : 0.04527132227563132
+epoch 39, train finish!
+----------------
+val_loss : 0.1158253046094763 
+Confusion_M: [[12254.   218.]
+ [  656. 11816.]]
+Confusion_M: [[12240.   233.]
+ [  624. 11849.]]
+epoch 39, F1 score :validation mean: 0.9655661492396185, testing mean: 0.9661759482180211
+ACC:validation mean: 0.9649615137908916, testing mean: 0.9656457949170207
+Precision:validation mean: 0.9491866769945778, testing mean: 0.9514925373134329
+Recall:validation mean: 0.9825208466966003, testing mean: 0.9813196504449612
+AUROC:validation mean: 0.9938965045653514, testing mean: 0.9931740734443224
+AUPR:validation mean: 0.9938965045653514, testing mean: 0.9927397436501841
+best auroc:validation mean: 0.9938965045653514, testing mean: 0.9931740734443224
+train losss : 0.044060713139911875
+epoch 40, train finish!
+----------------
+val_loss : 0.11861979370290528 
+Confusion_M: [[12183.   289.]
+ [  582. 11890.]]
+Confusion_M: [[12168.   305.]
+ [  572. 11901.]]
+epoch 40, F1 score :validation mean: 0.965487181519198, testing mean: 0.9652163566414151
+ACC:validation mean: 0.9650817831943553, testing mean: 0.9648440631764612
+Precision:validation mean: 0.954406580493537, testing mean: 0.9551020408163265
+Recall:validation mean: 0.9768280949326491, testing mean: 0.9755471819129319
+AUROC:validation mean: 0.9929525427528542, testing mean: 0.9927615412298664
+AUPR:validation mean: 0.9929525427528542, testing mean: 0.9926119042450827
+best auroc:validation mean: 0.9938965045653514, testing mean: 0.9931740734443224
+train losss : 0.0449698878535762
+epoch 41, train finish!
+----------------
+val_loss : 0.11038930091664803 
+Confusion_M: [[12233.   239.]
+ [  555. 11917.]]
+Confusion_M: [[12199.   274.]
+ [  535. 11938.]]
+epoch 41, F1 score :validation mean: 0.9685669041963579, testing mean: 0.9679057404689174
+ACC:validation mean: 0.9681686978832585, testing mean: 0.9675699510943638
+Precision:validation mean: 0.9565999374413513, testing mean: 0.9579864928537772
+Recall:validation mean: 0.9808370750481078, testing mean: 0.9780325503086668
+AUROC:validation mean: 0.993685255228286, testing mean: 0.9934501833509003
+AUPR:validation mean: 0.993685255228286, testing mean: 0.9930930515649131
+best auroc:validation mean: 0.993685255228286, testing mean: 0.9934501833509003
+train losss : 0.04368416757669109
+epoch 42, train finish!
+----------------
+val_loss : 0.11440027417729096 
+Confusion_M: [[12219.   253.]
+ [  573. 11899.]]
+Confusion_M: [[12214.   259.]
+ [  562. 11911.]]
+epoch 42, F1 score :validation mean: 0.9673052564914503, testing mean: 0.9674838607469604
+ACC:validation mean: 0.9668858242463118, testing mean: 0.9670889120500281
+Precision:validation mean: 0.9552063789868668, testing mean: 0.956011271133375
+Recall:validation mean: 0.9797145606157793, testing mean: 0.9792351479195062
+AUROC:validation mean: 0.9936113758192309, testing mean: 0.993329782179584
+AUPR:validation mean: 0.9936113758192309, testing mean: 0.9930169292779484
+best auroc:validation mean: 0.993685255228286, testing mean: 0.9934501833509003
+train losss : 0.043101051399627555
+epoch 43, train finish!
+----------------
+val_loss : 0.11371303556905109 
+Confusion_M: [[12230.   242.]
+ [  574. 11898.]]
+Confusion_M: [[12199.   274.]
+ [  550. 11923.]]
+epoch 43, F1 score :validation mean: 0.9677164108244976, testing mean: 0.9673301086353183
+ACC:validation mean: 0.9672867222578576, testing mean: 0.9669686522889441
+Precision:validation mean: 0.9551702592939706, testing mean: 0.9568593615185504
+Recall:validation mean: 0.9805965362411803, testing mean: 0.9780325503086668
+AUROC:validation mean: 0.9936687975806022, testing mean: 0.9935308739578523
+AUPR:validation mean: 0.9936687975806022, testing mean: 0.9933496757915834
+best auroc:validation mean: 0.9936687975806022, testing mean: 0.9935308739578523
+train losss : 0.042303072864141984
+epoch 44, train finish!
+----------------
+val_loss : 0.10992635476726051 
+Confusion_M: [[12199.   273.]
+ [  532. 11940.]]
+Confusion_M: [[12198.   275.]
+ [  544. 11929.]]
+epoch 44, F1 score :validation mean: 0.968059358012935, testing mean: 0.9675193337299228
+ACC:validation mean: 0.967727710070558, testing mean: 0.9671690852240841
+Precision:validation mean: 0.9582122378446312, testing mean: 0.957306545283315
+Recall:validation mean: 0.9781109685695959, testing mean: 0.9779523771346108
+AUROC:validation mean: 0.9938201179365319, testing mean: 0.9934278951699465
+AUPR:validation mean: 0.9938201179365319, testing mean: 0.9929263896002762
+best auroc:validation mean: 0.9936687975806022, testing mean: 0.9935308739578523
+train losss : 0.039788722292257425
+epoch 45, train finish!
+----------------
+val_loss : 0.10908843196776448 
+Confusion_M: [[12221.   251.]
+ [  542. 11930.]]
+Confusion_M: [[12191.   282.]
+ [  538. 11935.]]
+epoch 45, F1 score :validation mean: 0.9685753913215771, testing mean: 0.9674628997698597
+ACC:validation mean: 0.9682087876844131, testing mean: 0.967128998637056
+Precision:validation mean: 0.9575334952597352, testing mean: 0.9577343074868411
+Recall:validation mean: 0.9798749198203976, testing mean: 0.977391164916219
+AUROC:validation mean: 0.994071437788446, testing mean: 0.9931950503667574
+AUPR:validation mean: 0.994071437788446, testing mean: 0.9928927999243923
+best auroc:validation mean: 0.9936687975806022, testing mean: 0.9935308739578523
+train losss : 0.04036475238748468
+epoch 46, train finish!
+----------------
+val_loss : 0.10742639582984302 
+Confusion_M: [[12223.   249.]
+ [  545. 11927.]]
+Confusion_M: [[12209.   264.]
+ [  522. 11951.]]
+epoch 46, F1 score :validation mean: 0.968541996830428, testing mean: 0.9688144738930328
+ACC:validation mean: 0.9681686978832585, testing mean: 0.9684919425960073
+Precision:validation mean: 0.9573151629072681, testing mean: 0.958997722095672
+Recall:validation mean: 0.9800352790250161, testing mean: 0.9788342820492263
+AUROC:validation mean: 0.9940569216288873, testing mean: 0.9935936825981384
+AUPR:validation mean: 0.9940569216288873, testing mean: 0.9933562379321474
+best auroc:validation mean: 0.9940569216288873, testing mean: 0.9935936825981384
+train losss : 0.038762117407093635
+epoch 47, train finish!
+----------------
+val_loss : 0.11817176244696792 
+Confusion_M: [[12196.   276.]
+ [  540. 11932.]]
+Confusion_M: [[12199.   274.]
+ [  540. 11933.]]
+epoch 47, F1 score :validation mean: 0.9676293240241193, testing mean: 0.9677137870855149
+ACC:validation mean: 0.9672867222578576, testing mean: 0.9673695181592239
+Precision:validation mean: 0.9576005025125628, testing mean: 0.957610487479394
+Recall:validation mean: 0.9778704297626684, testing mean: 0.9780325503086668
+AUROC:validation mean: 0.9930175922482011, testing mean: 0.9928185809754425
+AUPR:validation mean: 0.9930175922482011, testing mean: 0.9928418310241824
+best auroc:validation mean: 0.9940569216288873, testing mean: 0.9935936825981384
+train losss : 0.038636853689184555
+epoch 48, train finish!
+----------------
+val_loss : 0.11384079709877165 
+Confusion_M: [[12237.   235.]
+ [  580. 11892.]]
+Confusion_M: [[12202.   271.]
+ [  574. 11899.]]
+epoch 48, F1 score :validation mean: 0.9677725493297481, testing mean: 0.9665333280525961
+ACC:validation mean: 0.9673268120590122, testing mean: 0.9661268339613566
+Precision:validation mean: 0.9547476008426309, testing mean: 0.9550720100187852
+Recall:validation mean: 0.9811577934573444, testing mean: 0.9782730698308346
+AUROC:validation mean: 0.9940014895714058, testing mean: 0.9934266610442815
+AUPR:validation mean: 0.9940014895714058, testing mean: 0.9932244038490818
+best auroc:validation mean: 0.9940569216288873, testing mean: 0.9935936825981384
+train losss : 0.03765372915360599
+epoch 49, train finish!
+----------------
+val_loss : 0.1168538237807854 
+Confusion_M: [[12245.   227.]
+ [  591. 11881.]]
+Confusion_M: [[12236.   237.]
+ [  555. 11918.]]
+epoch 49, F1 score :validation mean: 0.9676782045203098, testing mean: 0.9686510449651677
+ACC:validation mean: 0.9672065426555484, testing mean: 0.9682514230738395
+Precision:validation mean: 0.9539576191960112, testing mean: 0.9566101164881557
+Recall:validation mean: 0.9817992302758178, testing mean: 0.9809989577487372
+AUROC:validation mean: 0.9936236386953858, testing mean: 0.9937041047064609
+AUPR:validation mean: 0.9936236386953858, testing mean: 0.9932968672310147
+best auroc:validation mean: 0.9936236386953858, testing mean: 0.9937041047064609
+train losss : 0.038466523829489375
+epoch 50, train finish!
+----------------
+val_loss : 0.11562917701785966 
+Confusion_M: [[12212.   260.]
+ [  551. 11921.]]
+Confusion_M: [[12184.   289.]
+ [  538. 11935.]]
+epoch 50, F1 score :validation mean: 0.9678620962948286, testing mean: 0.9671760269894821
+ACC:validation mean: 0.9674871712636305, testing mean: 0.9668483925278601
+Precision:validation mean: 0.9568283318968894, testing mean: 0.9577110517214275
+Recall:validation mean: 0.9791533033996151, testing mean: 0.9768299526978274
+AUROC:validation mean: 0.993434501108011, testing mean: 0.9931381905978406
+AUPR:validation mean: 0.993434501108011, testing mean: 0.9926281062347712
+best auroc:validation mean: 0.9936236386953858, testing mean: 0.9937041047064609
